@@ -1,0 +1,6 @@
+
+from transformers import AutoModel
+model = AutoModel.from_pretrained(
+   "some-model",
+   trust_remote_code=True
+)
